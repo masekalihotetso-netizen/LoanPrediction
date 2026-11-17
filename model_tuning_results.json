@@ -1,0 +1,33 @@
+{
+    "dataset_records": 4269,
+    "training_records": 3415,
+    "testing_records": 854,
+    "number_of_features": 11,
+    "categorical_columns": [
+        "education",
+        "self_employed"
+    ],
+    "numerical_columns": [
+        "no_of_dependents",
+        "income_annum",
+        "loan_amount",
+        "loan_term",
+        "cibil_score",
+        "residential_assets_value",
+        "commercial_assets_value",
+        "luxury_assets_value",
+        "bank_asset_value"
+    ],
+    "cross_validation_folds": 5,
+    "best_parameters": {
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 100
+    },
+    "best_cross_validation_f1": 98.15,
+    "tuned_test_accuracy": 98.13,
+    "tuned_test_precision": 98.15,
+    "tuned_test_recall": 98.13,
+    "tuned_test_f1_score": 98.12
+}
